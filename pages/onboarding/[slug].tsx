@@ -5,7 +5,7 @@ import { FormMultiStepStateContext } from 'contexts/MultiStepFormContext';
 import { Mapper } from 'types';
 import { CMSData } from 'data/cms-data';
 
-const mapper: Mapper = {};
+
 
 const OnboardingStep = () => {
   const [stepValue, setStepValue] = useState('');
